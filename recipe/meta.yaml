@@ -1,5 +1,5 @@
 {% set name = "llama-index-embeddings-openai" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/llama_index_embeddings_openai-{{ version }}.tar.gz
-    sha256: 0acf417ebb2fc7d11e69125c96e74a788ff70000648d5295569507fc900b389c
+    sha256: c7f4d126cf41e1c731c86e87a8760e5f108f7785c7af63fc8c845a0a042dc291
   # https://github.com/run-llama/llama_index/issues/10806
   - url: https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE
     sha256: 24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb
