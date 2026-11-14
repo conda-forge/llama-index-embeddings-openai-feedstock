@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: llama-index-embeddings-openai
-  version: "0.7.0"
+  version: "0.8.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/llama_index_embeddings_openai-${{ version }}.tar.gz
-    sha256: 5842ef9503501a713363ea8b28462f4ee4f5e778a5c852399f771ff417906507
+    sha256: 752154841505cbe35fabfc90eae2703f541bb672a4e14e282b92c0d58673d2ad
   # https://github.com/run-llama/llama_index/issues/10806
   - url: https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE
     sha256: 24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb
